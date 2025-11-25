@@ -31,8 +31,8 @@ To write a program to create a recursive function to reverse a string.
 ```
 /*
 Program to implement Reverse a String
-Developed by: Dharsan Kumar R
-Register Number:  212223240028
+Developed by: kaushik k
+Register Number:  212222040074
 
 
 def rev(s):
