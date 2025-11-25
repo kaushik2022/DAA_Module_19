@@ -1,25 +1,52 @@
 # EX 1A Reverse a String
-## DATE:
+## DATE:02.11.2025
 ## AIM:
 To write a program to create a recursive function to reverse a string.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1.Start the program.
+
+2.Define a function that takes a string as input.
+
+3.If the string is empty or has only one character, return it as it is.
+
+4.Otherwise, take the last character of the string.
+
+5.Call the same function with the rest of the string (excluding the last character).
+
+6.Add the last character to the result of the recursive call.
+
+7.Return the final reversed string.
+
+8.Get input from the user.
+
+9.Call the function with the user's input.
+
+10.Print the reversed string.
+
+11.End the program
+    
 
 ## Program:
 ```
 /*
 Program to implement Reverse a String
-Developed by: 
-Register Number:  
+Developed by: Dharsan Kumar R
+Register Number:  212223240028
+
+
+def rev(s):
+    if(len(s)<1):
+        return s
+    return s[-1]+rev(s[:-1])
+s=input()
+print(rev(s))
+
 */
 ```
 
 ## Output:
+<img width="527" height="317" alt="image" src="https://github.com/user-attachments/assets/281e1ce8-810f-4c40-b40c-4cdc315f9fd3" />
 
 
 
